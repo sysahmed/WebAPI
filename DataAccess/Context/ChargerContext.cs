@@ -20,7 +20,7 @@ namespace DataAccess.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source = Ahmed ; Initial catalog = Charger; User Id = sa; Password=wrjkd34mk22");
+                optionsBuilder.UseSqlServer("Data Source = Ahmed ; Initial catalog = Charger; User Id = User; Password=Password");
             }
         }
 
